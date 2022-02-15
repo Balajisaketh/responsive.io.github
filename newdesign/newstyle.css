@@ -1,16 +1,26 @@
 body {
-    padding: 1%;
+    padding: -1%;
     margin: 0%;
+    margin-top: 1px;
+    margin-bottom: auto;
     box-sizing: border-box;
     /* background-color: black !important; */
     background:lightgray !important
     
     
 }
+.topheading
+{
+    
+    justify-content: center;
+    text-align: center;
+    
+    /* margin-right: 156px; */
+}
 
 /* Section 1 */
 .mainsection {
-    max-width: 60%;
+    max-width: 600px;
     margin: auto;
     height: auto;
     background-color: rgb(8, 153, 221);
@@ -75,7 +85,7 @@ body {
 .btn {
     max-width: 80%;
     height: 100px;
-    margin: 5% 0% 5% 30%;
+    margin: 2% 0% 3% 18%;
     background-color: rgb(8, 153, 221);
     color: white;
     font-size: 30px;
@@ -181,7 +191,7 @@ body {
     position: relative;
 }
 
-@media only screen and (max-width:789px) {
+@media only screen and (max-width:768px) {
     body {
         padding: 0px;
         margin: 0px;
@@ -192,13 +202,13 @@ body {
 
     .btn {
         height: 75px;
-        margin: 6% 22%;
+        margin:  3% 18%;
         background-color: rgb(8, 153, 221);
         color: white;
         font-size: 22px;
         outline: auto;
         width: 240px;
-        align-items: center;
+        text-align: center
     } 
 
     /* .cus-msg {
@@ -249,6 +259,22 @@ body {
         border-radius: 20px;
         margin-right: 23px;
     }
+
+}
+@media only screen and (max-width:594x) {
+
+    .square {
+     
+      height: 120px;
+      width: 120px;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      border-radius: 20px;
+      margin-right: 23px;
+  }
+
+}
 
 }
 @media only screen and (max-width:594x) {
